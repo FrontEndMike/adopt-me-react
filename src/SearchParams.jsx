@@ -41,7 +41,7 @@ const SearchParams = () => {
             <div className="carousel-smaller">
               <img src={adoptedPet.images[0]} alt={adoptedPet.name} />
             </div>
-            <h2>{adoptedPet.name}, is ready for to meet you!</h2>
+            <h2>{adoptedPet.name}, is ready to meet you!</h2>
           </div>
         ) : null}
         <label htmlFor="location">
