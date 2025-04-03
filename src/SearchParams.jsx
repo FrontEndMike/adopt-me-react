@@ -25,7 +25,7 @@ const SearchParams = () => {
   return (
     <div className="mx-auto grid max-w-[1200px] grid-cols-1 place-items-center items-start px-4 md:gap-8">
       <form
-        className="mb-10 flex h-auto w-full max-w-[400px] flex-col gap-4 rounded-lg bg-gray-200 p-10 shadow-lg md:col-span-2"
+        className="mb-10 flex h-auto w-full max-w-[400px] flex-col gap-4 rounded-lg bg-gray-200 p-10 shadow-lg"
         onSubmit={(e) => {
           e.preventDefault()
           const formData = new FormData(e.target)
@@ -38,7 +38,7 @@ const SearchParams = () => {
         }}
       >
         {adoptedPet ? (
-          <div className="">
+          <div className="text-center">
             <div className="carousel-smaller">
               <img src={adoptedPet.images[0]} alt={adoptedPet.name} />
             </div>

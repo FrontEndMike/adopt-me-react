@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 const Loader = () => {
   return (
     <>
-      <div className="">
+      <div className="my-8 flex justify-center">
         <div className="lds-roller">
           <div></div>
           <div></div>
@@ -16,7 +16,7 @@ const Loader = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Loader;
+export default Loader
