@@ -1,7 +1,8 @@
 import React from 'react'
 import Pet from './Pet'
+import { Pet as PetType } from './APIResponsesTypes'
 
-const Results = ({ pets }) => {
+const Results = ({ pets }: { pets: PetType[] }) => {
   return (
     <div className="search grid w-full grid-cols-1 justify-items-stretch gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
       {!pets.length ? (
