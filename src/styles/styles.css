@@ -1,6 +1,0 @@
-@import 'loader.css';
-@import 'form.css';
-@import 'original-details.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
