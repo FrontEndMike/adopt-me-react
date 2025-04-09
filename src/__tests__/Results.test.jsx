@@ -7,6 +7,7 @@ test('renders correctly with no pets', () => {
   const { asFragment } = render(<Results pets={[]} />);
   expect(asFragment()).toMatchSnapshot();
 });
+
 const pets = [
   {
     id: 1,
